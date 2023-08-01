@@ -1,0 +1,8 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "aws-sdk-layer"
+resolve_s3 = true
+s3_prefix = "aws-sdk-layer"
+region = "ap-northeast-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
